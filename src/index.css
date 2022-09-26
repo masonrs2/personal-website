@@ -1,13 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+.App {
+
+}
+.navbar-container {
+  display: block;
+  height: 40px;
+  max-width: 10000000px;
+}
+
+.navbar-content {
+  position: relative;
+  left: 300px;
+  top: 15px;
+  font-size: 20px;
+}
+
+.navbar-list {
+  display: inline;
+  margin-left: 600px;
+}
+
+.nav-list-items {
+  display: inline;
+  margin-right: 20px;
+  
+}
+
+a:link {
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+.projects-container {
+  display: flex;
+  margin-left: 98px;
+  margin-bottom: 120px;
+
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  height: 450px;
+  width: 1000px;
+  top: 80px;
+  right: 140px;
+}
+
+.project-card {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  height: 440px;
+  width: 340px;
+
+  border-radius: 10px;
+  border-style: groove;
+  border-color: #1E53FF;  
+
+  margin-right: 40px; 
+}
+
+.card-title {
+  font-size: 24px;
+  position: relative;
+  top: 18px;
+  left: 20px;
+}
+
+.card-image {
+  position: relative; 
+  top: 40px;
+  left: 18px;
+
+  height: 150px;
+  width: 297.5px;
+
+
+  border: groove;
+  border-radius: 10px;
+
+}
+
+.card-description {
+  font-size: 12px;
+  position: relative;
+  top: 50px;
+  left: 18px;
+
+  max-width: 300px;
+}
+
+.card-site-button {
+  position: absolute;
+  top: 380px;
+  left: 50px;
+
+  width: 100px;
+  height: 40px;
+
+  background-color: #258BFF;
+  border-style: groove;
+  border-radius: 7px;
+
+  cursor: pointer;
+}
+
+.card-code-button {
+  position: absolute;
+  top: 380px;
+  left: 180px;
+
+  width: 100px;
+  height: 40px;
+
+  background-color: #258BFF;
+  border-style: groove;
+  border-radius: 7px;
+
+  cursorhover: pointer;: pointer;
+}
+
+.flashloan-description {
+  position: absolute;
+  top: -6px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 230px;
+  text-align: center;
+}
+
+.profile-image {
+  height: 600px;
+  max-width: 300px;
+
+  clip-path: circle();
+}
+
+.profile-name-title-and-social {
+  padding-left: 280px;
+  padding-top: 30px;
+
+}
+
+.projects-h2 {
+  font-size: 24px;
+}
+
+.profile-name {
+  font-size: 48px;
+}
+
+.profile-title {
+  font-size: 25px;
+  margin-top: -30px;
+}
+
+.profile-button {
+  height: 40px;
+  width: 150px;
+  margin-top: -30px;
+
+  border-style: groove;
+  border-radius: 12px;
+  background-color: #29F2FF;
+
+  cursor: pointer;
+  
+}
+
+.social-media {
+  /* position: relative;
+  top: 60px; */
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 290px;
+  padding-top: 50px;
+  
+}
+
+.github-icon {
+  position: relative;
+  left: -240px;
+}
+
+.twitter-icon {
+  height: 78px;
+  width: auto;
+  position: relative;
+  left: -200px;
+  top: 1px;
+}
+
+.linkedin-icon {
+  height: 70px;
+  width: auto;
+  position: relative;
+  left: -160px;
+  top: 2px;
+}
+
+.facebook-icon {
+  height: 70px;
+  width: auto;
+  position: relative;
+  left: -120px;
+  top: 2px;
+} 
+
+.footer {
+  display: flex;
+  padding-top: 100px;
+}
+
+.footer-text {
+  font-size: 15px;
+  padding-left: 700px;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.about {
+  margin-left: 100px;
+  max-width: 850px;
 }
+.about > h2{  
+  font-size: 42px;
+}
+
+.about > p {
+  max-width: 850px;
+}
+
